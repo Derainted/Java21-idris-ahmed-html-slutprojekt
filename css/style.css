@@ -207,7 +207,7 @@ h1 {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("/img/projekt5.jpg");
+  background: url("../img/projekt5.jpg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -327,7 +327,7 @@ footer {
 
 .startup {
   text-align: center;
-  background-image: url("/img/sports1.jpg");
+  background-image: url("../img/sport1.jpg");
   background-size: cover;
   background-position: center;
   padding: 15rem 1rem;
@@ -338,7 +338,7 @@ footer {
 
 /* project 3 */
 .feature-photo {
-  background-image: url(/img/sports.jpg);
+  background-image: url("../img/sports.jpg");
   padding: 30rem 0;
   background-size: cover;
   background-position: center;
@@ -648,30 +648,6 @@ aside {
   color: #ffffff;
 }
 
-.project5-main img {
-  max-width: 100%;
-}
-
-.top-container-project5 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas: "showcase showcase showcase" "showcase showcase showcase";
-}
-
-.feature-project5 {
-  grid-area: showcase;
-  min-height: 400px;
-  background: url(/img/rain.mp4);
-  background-size: cover;
-  background-position: center;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
-
 video {
   object-fit: cover;
   width: 100%;
@@ -800,8 +776,6 @@ i {
   border: 1px solid #222;
 }
 
-
-
 /* MD */
 
 @media (max-width: 766px) {
@@ -927,21 +901,26 @@ i {
     margin: 50px 0;
     line-height: 30px;
   }
+
   .main-page-nav ul li a {
     font-size: 20px;
   }
+
   a:hover,
   a.active {
     background: none;
     color: #0082e6;
   }
+
   #check:checked ~ ul {
     left: 0;
   }
+
   .introduction-column p {
     margin-top: 20px;
     padding: 8px;
   }
+  
   .wrapper-contact {
     width: 500px;
     margin-top: 30px;
