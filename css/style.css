@@ -207,7 +207,7 @@ h1 {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("/img/projekt5.jpg");
+  background: url("../img/projekt5.jpg");
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -327,7 +327,7 @@ footer {
 
 .startup {
   text-align: center;
-  background-image: url("img/sport1.jpg");
+  background-image: url("../img/sport1.jpg");
   background-size: cover;
   background-position: center;
   padding: 15rem 1rem;
