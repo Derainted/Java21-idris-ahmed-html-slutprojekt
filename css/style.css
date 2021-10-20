@@ -207,7 +207,7 @@ h1 {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(/img/projekt5.jpg);
+  background: url(img/projekt5.jpg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
